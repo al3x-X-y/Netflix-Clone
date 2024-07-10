@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-image: url(assets/image/Netflix-bg.jpg);
+    height: 80vh;
+    position: relative;
+}
+
+.nav-section{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top : 0;
+}
+
+.navbar {
+    display: flex;
+}
+
+.sign-in-button{
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    align-items: center;
+}
