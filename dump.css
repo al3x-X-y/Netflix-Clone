@@ -1,0 +1,106 @@
+* @format
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+    	font-family: "Noto Sans", sans-serif;
+}
+main {
+	background-image: url(assets/image/Netflix-bg.jpg);
+	height: 70vh;
+	position: relative;
+	background-size: max(1700px, 100vw);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.nav-section {
+	height: 70vh;
+	width: 100%;
+	opacity: 0.44;
+	background-color: black;
+	position: absolute;
+	top: 0;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	position: relative;
+	z-index: 10;
+}
+.sign-in-button {
+	margin-left: auto;
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 30px;
+	align-items: center;
+}
+.sign-in-button:hover {
+	background-color: #8f0101;
+}
+
+.get-started-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	position: relative;
+	z-index: 10;
+}
+.get-started {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	font-family: "Noto Sans", sans-serif;
+}
+.get-started h1 {
+	font-size: 52px;
+	font-weight: bolder;
+	gap: 10px;
+}
+.get-started h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+.get-started h3 {
+		font-size: 20px;
+	font-weight: 400;
+}
+.input {
+	margin: 10px;
+}
+.get-started-button {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 30px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 30px;
+	margin-top: 0px;
+}
+.get-started-button:hover {
+	background-color: #04ffff;
+}
+.email-input {
+	background-color: transparent;
+	color: white; /* Adjust the text color as needed */
+	border: 1px solid white; /* Adjust the border style and color as needed */
+	padding: 10px 20px;
+	border-radius: 5px;
+	height: 40px;
+	outline: none; /* Remove the default outline */
+	width: 30%;
+	cursor: pointer;
+}
